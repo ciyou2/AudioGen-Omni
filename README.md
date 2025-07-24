@@ -1,7 +1,7 @@
-<h1 align="center">Kling-Foley: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation</h1>
+<h1 align="center">Aural-Video: A Multimodal Architecture for Customized Aural Video Generation</h1>
 
 <div align='center'>
-  <span class="author-block">Jun Wang<sup>*</sup>, Xijuan Zeng<sup>*</sup>, Chunyu Qiang<sup>*</sup>, Ruilong Chen, Shiyao Wang, Le Wang, Wangjing Zhou, Pengfei Cai, Jiahui Zhao</span>
+  <span class="author-block">Le Wang<sup>*</sup>, Jun Wang<sup>*</sup>, Xijuan Zeng<sup>*</sup>, Chunyu Qiang<sup>*</sup>, Ruilong Chen, Shiyao Wang, Le Wang, Wangjing Zhou, Pengfei Cai, Jiahui Zhao</span>
   <span class="author-block">Nan Li, Zihan Li, Yuzhe Liang, Xiaopeng Wang, Haorui Zheng, Ming Wen, Kang Yin, Yiran Wang</span>
   <span class="author-block">Nan Li, Feng Deng, Liang Dong, Chen Zhang, Di Zhang, Kun Gai</span>
 </div>
