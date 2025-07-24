@@ -23,7 +23,7 @@
   </p>
 
   <!-- 🎬 Showcase -->
-  <p><img src="./content/abstract.png"></p>
+  <p><img src="./content/icassp.pdf"></p>
   <p>🔥 For more results, visit our <a href="https://klingfoley.github.io/Kling-Foley/" target="_blank"><strong>homepage</strong></a> 🔥</p>
 
 </div>
