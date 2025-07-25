@@ -1,7 +1,7 @@
 <h1 align="center">OmniGen: A Generalist Multimodal Diffusion Transformer for Video-Aligned Audio, Speech, and Song Generation</h1>
 
 <div align='center'>
-  <span class="author-block">Le Wang<sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup></span>
+  <span class="author-block">Le Wang<sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup></span>
 </div>
 
 <div align='center'>
