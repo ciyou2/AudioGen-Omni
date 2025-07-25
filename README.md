@@ -15,7 +15,6 @@
   <p>
     <a href="https://arxiv.org/abs/2506.19774" target="_blank"><img src="https://img.shields.io/badge/Paper-KlingFoley-red" alt="arXiv link"></a>&nbsp;
     <a href="https://klingfoley.github.io/Kling-Foley/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
-    <a href="https://huggingface.co/datasets/klingfoley/Kling-Audio-Eval" target="_blank"><img src="https://img.shields.io/badge/🤗 Hugging Face-Spaces-blue" alt="HF space"></a>&nbsp;
     <img src="https://komarev.com/ghpvc/?username=kwavefoley&color=5865f2" alt="Profile views" width="110.2" height="20">&nbsp;
     <a href="https://github.com/klingfoley/Kling-Foley" target="_blank"><img src="https://img.shields.io/github/stars/klingfoley/Kling-Foley?style=social" alt="GitHub stars"></a>
   </p>
