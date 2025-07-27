@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Aural-Video">
-    <meta property="og:title" content="Aural-Video"/>
-    <meta property="og:description" content="Aural-Video: A Multimodal Architecture for Customized Aural Video Generation"/>
-    <meta property="og:url" content="https://ciyou2.github.io/AuralVideo/"/>
+    <meta name="description" content="OmniGen">
+    <meta property="og:title" content="OmniGen"/>
+    <meta property="og:description" content="OmniGen: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation"/>
+    <meta property="og:url" content="https://ciyou2.github.io/OmniGen/"/>
     <meta property="og:image" content="static/image/kling.png"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
-    <meta name="twitter:title" content="Aural-Video">
-    <meta name="twitter:description" content="Aural-Video: A Multimodal Architecture for Customized Aural Video Generation">
+    <meta name="twitter:title" content="OmniGen">
+    <meta name="twitter:description" content="OmniGen: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation">
     <meta name="twitter:image" content="static/images/kling.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="keywords" content="Video-to-Audio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aural-Video</title>
+    <title>OmniGen</title>
     <link rel="apple-touch-icon" sizes="180x180" href="static/image/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/image/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/image/favicon_io/favicon-16x16.png">
@@ -96,7 +96,7 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title">Aural-Video: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation</h1>
+                        <h1 class="title is-1 publication-title">OmniGen: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation</h1>
                         <div class="is-size-5 publication-authors">
                             <span class="author-block">Jun Wang<sup>*</sup>, Xijuan Zeng<sup>*</sup>, Chunyu Qiang<sup>*</sup>, Ruilong Chen, Shiyao Wang, Le Wang, Wangjing Zhou, Pengfei Cai, Jiahui Zhao</span>
                             <span class="author-block">Nan Li, Zihan Li, Yuzhe Liang, Xiaopeng Wang, Haorui Zheng, Ming Wen, Kang Yin, Yiran Wang</span>
@@ -115,7 +115,7 @@
                                     </a>
                                 </span>
                                 <span class="link-block">
-                                    <a href="https://github.com/klingfoley/Aural-Video" target="_blank"
+                                    <a href="https://github.com/klingfoley/OmniGen" target="_blank"
                                         class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon"><i class="fab fa-github"></i></span>
                                         <span>GitHub</span>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="content has-text-justified">
                         <p style="font-size: 1.2em;">
-                            We propose Aural-Video, a large-scale multimodal Video-to-Audio generation model. Taking an input video and an optional text prompt, the model synthesizes high-fidelity audio that is semantically aligned and temporally synchronized with the video content, encompassing elements such as sound effects and background music. Significantly, Aural-Video can produce audio sequences of arbitrary duration, dynamically adapting to the length of the input video.
+                            We propose OmniGen, a large-scale multimodal Video-to-Audio generation model. Taking an input video and an optional text prompt, the model synthesizes high-fidelity audio that is semantically aligned and temporally synchronized with the video content, encompassing elements such as sound effects and background music. Significantly, OmniGen can produce audio sequences of arbitrary duration, dynamically adapting to the length of the input video.
                         </p>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
                 </div>
                 <div class="content has-text-justified">
                     <p style="font-size: 1.2em;">
-                        The core of Aural-Video is a multimodal-controlled flowmatching model. Text, video, and temporally extracted video frames serve as conditional inputs. The multimodal features are then fused via a Multimodal Joint Conditioning module, which feeds into the MMDit Block for processing. This module predicts VAE latents, which a pretrained mel decoder subsequently reconstructs into a monaural mel-spectrogram. The monaural spectrogram is then converted to stereo spectrogram via a Mono2Stereo module. Finally, the stereo spectrogram is passed through a vocoder to generate the output waveform.
+                        The core of OmniGen is a multimodal-controlled flowmatching model. Text, video, and temporally extracted video frames serve as conditional inputs. The multimodal features are then fused via a Multimodal Joint Conditioning module, which feeds into the MMDit Block for processing. This module predicts VAE latents, which a pretrained mel decoder subsequently reconstructs into a monaural mel-spectrogram. The monaural spectrogram is then converted to stereo spectrogram via a Mono2Stereo module. Finally, the stereo spectrogram is passed through a vocoder to generate the output waveform.
                     </p>
                 </div>
             </div>
@@ -197,7 +197,7 @@
     <section class="hero is-small is-light">
         <div class="hero-body">
             <div class="container">
-                <h2 class="title is-3">Aural-Video Demo Gallery</h2>
+                <h2 class="title is-3">OmniGen Demo Gallery</h2>
                 <!-- Animal Sound Effect -->
                 <div style="display: flex; justify-content: center;align-items: center; height: 80px;">
                     <h3 class="title is-4">Animal Sound Effect</h3>
