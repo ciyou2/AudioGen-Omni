@@ -101,10 +101,6 @@
                             <span class="author-block">Anonymous submission</span>
 
                         </div>
-                
-                        <div class="column has-text-centered">
-     
-                        </div>
                     </div>
                 </div>
             </div>
@@ -136,7 +132,8 @@
                     </div>
                     <div class="content has-text-justified">
                         <p style="font-size: 1.2em;">
-                            We propose OmniGen, a large-scale multimodal Video-to-Audio generation model. Taking an input video and an optional text prompt, the model synthesizes high-fidelity audio that is semantically aligned and temporally synchronized with the video content, encompassing elements such as sound effects and background music. Significantly, OmniGen can produce audio sequences of arbitrary duration, dynamically adapting to the length of the input video.
+                        We present OmniGen — the first generalist multimodal diffusion transformer capable of generating high-fidelity sound effects, speech, and songs coherently synchronized with the input video. OmniGen introduces a groundbreaking joint training paradigm that seamlessly integrates large-scale text-audio corpora, unlocking a model that can produce semantically rich, acoustically diverse audio spanning the entire spectrum of sound types. At its core, OmniGen introduces a novel lyrics-transcription fusion module that maps raw graphemes or phonemes into dense, frame-level representations, enabling precise audio-visual alignment without relying on forced alignment or duration prediction. Trained under a powerful Flow Matching objective, OmniGen redefines the state-of-the-art in Video-to-Audio, Video-to-Speech, and Video-to-Song synthesis—excelling in audio quality, semantic consistency, and lip-sync precision. With just 1.21 seconds of inference time for an 8-second audio clip, it outperforms prior models by a large margin in both speed and versatility.
+Even more remarkably, OmniGen also delivers competitive or superior results in Text-to-Audio/Speech/Song tasks—demonstrating that multimodal joint training not only preserves, but enhances unimodal capabilities. This positions OmniGen as a truly generalist audio generator, opening new frontiers for synchronized multimodal content creation across speech, music, and sound design.    
                         </p>
                     </div>
                 </div>
@@ -154,7 +151,7 @@
                 </div>
                 <div class="content has-text-justified">
                     <p style="font-size: 1.2em;">
-                        The core of OmniGen is a multimodal-controlled flowmatching model. Text, video, and temporally extracted video frames serve as conditional inputs. The multimodal features are then fused via a Multimodal Joint Conditioning module, which feeds into the MMDit Block for processing. This module predicts VAE latents, which a pretrained mel decoder subsequently reconstructs into a monaural mel-spectrogram. The monaural spectrogram is then converted to stereo spectrogram via a Mono2Stereo module. Finally, the stereo spectrogram is passed through a vocoder to generate the output waveform.
+                    OmniGen is the first unified framework capable of generating diverse audio types—including sound effects, speech, and song—under flexible multimodal conditions, enabling precise audio-visual alignment. Text, video, lyrics, and transcripts are used as conditional inputs. A lightweight module maps raw grapheme or phoneme sequences into dense, frame-aligned representations without requiring phoneme duration supervision. To ensure audio-visual synchrony, Rotary Positional Embeddings (RoPE) are applied not only to visual and audio streams but also to temporally aligned text inputs such as lyrics and transcripts, enhancing temporal consistency across modalities.   
                     </p>
                 </div>
             </div>
