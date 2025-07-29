@@ -1,11 +1,12 @@
-<h1 align="center">OmniGen: A Generalist Multimodal Diffusion Transformer for Video-Aligned Audio, Speech, and Song Generation</h1>
+<h1 align="center">AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation</h1>
 
 <div align='center'>
-  <span class="author-block">Le Wang<sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup></span>
+  <span class="author-block">Le Wang<sup>1</sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup></span>
 </div>
 
 <div align='center'>
-  <span class="author-block"><strong>Kuaishou Technology</strong></span>
+  <span class="author-block"><strong>1</sup>China University of Mining and Technology</strong></span>
+  <span class="author-block"><strong>*</sup>Kuaishou Technology</strong></span>
 </div>
 <br>
 
@@ -14,29 +15,26 @@
   <!-- 📄 Paper / project / GitHub stats -->
   <p>
     <a href="https://arxiv.org/abs/2506.19774" target="_blank"><img src="https://img.shields.io/badge/Paper-KlingFoley-red" alt="arXiv link"></a>&nbsp;
-    <a href="https://klingfoley.github.io/Kling-Foley/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
+    <a href="https://github.com/ciyou2/AudioGen-Omni/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
     <img src="https://komarev.com/ghpvc/?username=kwavefoley&color=5865f2" alt="Profile views" width="110.2" height="20">&nbsp;
-    <a href="https://github.com/klingfoley/Kling-Foley" target="_blank"><img src="https://img.shields.io/github/stars/klingfoley/Kling-Foley?style=social" alt="GitHub stars"></a>
+    <a href="https://github.com/ciyou2/AudioGen-Omni" target="_blank"><img src="https://img.shields.io/github/stars/ciyou2/AudioGen-Omni?style=social" alt="GitHub stars"></a>
   </p>
 
   <!-- 🎬 Showcase -->
   <p><img src="./content/abstract.png"></p>
-  <p>🔥 For more results, visit our <a href="https://klingfoley.github.io/Kling-Foley/" target="_blank"><strong>homepage</strong></a> 🔥</p>
+  <p>🔥 For more results, visit our <a href="https://ciyou2.github.io/OmniGen/" target="_blank"><strong>homepage</strong></a> 🔥</p>
 
 </div>
 
 ## Introduction 📖
-We propose Kling-Foley, a large-scale multimodal Video-to-Audio generation model. Taking an input video and an optional text prompt, the model synthesizes high-fidelity audio that is semantically aligned and temporally synchronized with the video content, encompassing elements such as sound effects and background music. Significantly, Kling-Foley can produce audio sequences of arbitrary duration, dynamically adapting to the length of the input video.
-
-## Benchmark
-We also open-source an industrial-level benchmark Kling-Audio-Eval on [HuggingFace](https://huggingface.co/datasets/klingfoley/Kling-Audio-Eval) 🤗 .
-The evaluation code is from [av-benchmark](https://github.com/hkchengrex/av-benchmark.git).
+We present AudioGen-Omni  — the first generalist multimodal diffusion transformer capable of generating high-fidelity sound effects, speech, and songs coherently synchronized with the input video. AudioGen-Omni  introduces a groundbreaking joint training paradigm that seamlessly integrates large-scale text-audio corpora, unlocking a model that can produce semantically rich, acoustically diverse audio spanning the entire spectrum of sound types. At its core, AudioGen-Omni  introduces a novel lyrics-transcription fusion module that maps raw graphemes or phonemes into dense, frame-level representations, enabling precise audio-visual alignment without relying on forced alignment or duration prediction. Trained under a powerful Flow Matching objective, AudioGen-Omni  redefines the state-of-the-art in Video-to-Audio, Video-to-Speech, and Video-to-Song synthesis—excelling in audio quality, semantic consistency, and lip-sync precision. With just 1.21 seconds of inference time for an 8-second audio clip, it outperforms prior models by a large margin in both speed and versatility.
+Even more remarkably, AudioGen-Omni  also delivers competitive or superior results in Text-to-Audio/Speech/Song tasks—demonstrating that multimodal joint training not only preserves, but enhances unimodal capabilities. This positions AudioGen-Omni  as a truly generalist audio generator, opening new frontiers for synchronized multimodal content creation across speech, music, and sound design.
  
 ## Citation
 ```
-@misc{klingfoley,
-      title={Kling-Foley: Multimodal Diffusion Transformer for High-Quality Video-to-Audio Generation},
-      author={Jun Wang, Xijuan Zeng, Chunyu Qiang, Ruilong Chen, Shiyao Wang, Le Wang, Wangjing Zhou, Pengfei Cai, Jiahui Zhao, Nan Li, Zihan Li, Yuzhe Liang, Xiaopeng Wang, Haorui Zheng, Ming Wen, Kang Yin, Yiran Wang, Nan Li, Feng Deng, Liang Dong, Chen Zhang, Di Zhang, Kun Gai},
+@misc{AudioGen-Omni,
+      title={AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation},
+      author={Le Wang, Jun Wang, Feng Deng, Chen Zhang, Di Zhang, Kun Gai},
       journal={arXiv preprint arXiv:2506.19774},
       year={2025}
 }
