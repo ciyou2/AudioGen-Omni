@@ -14,14 +14,14 @@
 
   <!-- 📄 Paper / project / GitHub stats -->
   <p>
-    <a href="https://arxiv.org/abs/2506.19774" target="_blank"><img src="https://img.shields.io/badge/Paper-KlingFoley-red" alt="arXiv link"></a>&nbsp;
+    <a href="https://arxiv.org/abs/2506.19774" target="_blank"><img src="https://img.shields.io/badge/Paper-AudioGen-Omni-red" alt="arXiv link"></a>&nbsp;
     <a href="https://github.com/ciyou2/AudioGen-Omni/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
-    <img src="https://komarev.com/ghpvc/?username=kwavefoley&color=5865f2" alt="Profile views" width="110.2" height="20">&nbsp;
+    <img src="https://komarev.com/ghpvc/?username=ciyou2&color=5865f2" alt="Profile views" width="110.2" height="20">&nbsp;
     <a href="https://github.com/ciyou2/AudioGen-Omni" target="_blank"><img src="https://img.shields.io/github/stars/ciyou2/AudioGen-Omni?style=social" alt="GitHub stars"></a>
   </p>
 
   <!-- 🎬 Showcase -->
-  <iframe src="./content/figure2.pdf" width="100%" height="600px"></iframe>
+  <p><img src="./content/arch.jpg"></p>
   <p>🔥 For more results, visit our <a href="https://ciyou2.github.io/OmniGen/" target="_blank"><strong>homepage</strong></a> 🔥</p>
 
 </div>
