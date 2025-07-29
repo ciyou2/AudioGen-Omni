@@ -14,7 +14,7 @@
 
   <!-- 📄 Paper / project / GitHub stats -->
   <p>
-    <a href="https://arxiv.org/abs/2506.19774" target="_blank"><img src="https://img.shields.io/badge/Paper-AudioGen-Omni-red" alt="arXiv link"></a>&nbsp;
+    <a href="-" target="_blank"><img src="https://img.shields.io/badge/Paper-AudioGen-Omni-red" alt="arXiv link"></a>&nbsp;
     <a href="https://github.com/ciyou2/AudioGen-Omni/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
     <img src="https://komarev.com/ghpvc/?username=ciyou2&color=5865f2" alt="Profile views" width="110.2" height="20">&nbsp;
     <a href="https://github.com/ciyou2/AudioGen-Omni" target="_blank"><img src="https://img.shields.io/github/stars/ciyou2/AudioGen-Omni?style=social" alt="GitHub stars"></a>
@@ -35,7 +35,7 @@ Even more remarkably, AudioGen-Omni  also delivers competitive or superior resul
 @misc{AudioGen-Omni,
       title={AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation},
       author={Le Wang, Jun Wang, Feng Deng, Chen Zhang, Di Zhang, Kun Gai},
-      journal={arXiv preprint arXiv:2506.19774},
+      journal={arXiv preprint arXiv:-},
       year={2025}
 }
 ```
