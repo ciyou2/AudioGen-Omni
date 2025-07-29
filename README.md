@@ -1,12 +1,12 @@
 <h1 align="center">AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation</h1>
 
 <div align='center'>
-  <span class="author-block">Le Wang<sup>1</sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup></span>
+  <span class="author-block">Le Wang<sup>1</sup><sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup></span>
 </div>
 
 <div align='center'>
-  <span class="author-block"><strong>1</sup>China University of Mining and Technology</strong></span>
-  <span class="author-block"><strong>*</sup>Kuaishou Technology</strong></span>
+  <span class="author-block"><strong><sup>1</sup>China University of Mining and Technology, </strong></span>
+  <span class="author-block"><strong><sup>*</sup>Kuaishou Technology</strong></span>
 </div>
 <br>
 
@@ -21,7 +21,7 @@
   </p>
 
   <!-- 🎬 Showcase -->
-  <p><img src="./content/abstract.png"></p>
+  <iframe src="./content/figure2.pdf" width="100%" height="600px"></iframe>
   <p>🔥 For more results, visit our <a href="https://ciyou2.github.io/OmniGen/" target="_blank"><strong>homepage</strong></a> 🔥</p>
 
 </div>
