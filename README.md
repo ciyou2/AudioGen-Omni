@@ -1,7 +1,7 @@
 <h1 align="center">AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation</h1>
 
 <div align='center'>
-  <span class="author-block">Le Wang<sup>1</sup><sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup></span>
+  <span class="author-block">Le Wang<sup>1</sup><sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>,  Kun Gai<sup>*</sup>, Di Zhang<sup>*</sup></span>
 </div>
 
 <div align='center'>
