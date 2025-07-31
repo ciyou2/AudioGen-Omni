@@ -129,8 +129,7 @@
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p style="font-size: 1.2em;">
-                        We present AudioGen-Omni — the first generalist multimodal diffusion transformer capable of generating high-fidelity sound effects, speech, and songs coherently synchronized with the input video. AudioGen-Omni introduces a groundbreaking joint training paradigm that seamlessly integrates large-scale text-audio corpora, unlocking a model that can produce semantically rich, acoustically diverse audio spanning the entire spectrum of sound types. At its core, AudioGen-Omni introduces a novel lyrics-transcription fusion module that maps raw graphemes or phonemes into dense, frame-level representations, enabling precise audio-visual alignment without relying on forced alignment or duration prediction. Trained under a powerful Flow Matching objective, AudioGen-Omni redefines the state-of-the-art in Video-to-Audio, Video-to-Speech, and Video-to-Song synthesis—excelling in audio quality, semantic consistency, and lip-sync precision. With just 1.21 seconds of inference time for an 8-second audio clip, it outperforms prior models by a large margin in both speed and versatility.
-Even more remarkably, AudioGen-Omni also delivers competitive or superior results in Text-to-Audio/Speech/Song tasks—demonstrating that multimodal joint training not only preserves, but enhances unimodal capabilities. This positions AudioGen-Omni as a truly generalist audio generator, opening new frontiers for synchronized multimodal content creation across speech, music, and sound design.    
+                        We present AudioGen-Omni — the first generalist multimodal diffusion transformer capable of generating high-fidelity sound effects, speech, and songs coherently synchronized with the input video. AudioGen-Omni  introduces a groundbreaking joint training paradigm that seamlessly integrates large-scale video-text-audio corpora, unlocking a model that can produce semantically rich, acoustically diverse audio spanning the entire spectrum of sound types. At the core of AudioGen-Omni is a unified lyrics-transcription encoder that maps both graphemes and phonemes—whether from sung or spoken input—into dense frame-level features. Dense frame-level representations are integrated via an AdaLN-based joint attention mechanism with phase-aligned anisotropic positional infusion (PAAPI), selectively applying RoPE to temporally structured modalities for precise and robust cross-modal alignment. Trained under a powerful Flow Matching objective, AudioGen-Omni  redefines the state-of-the-art in Video-to-Audio, Video-to-Speech, and Video-to-Song synthesis—excelling in audio quality, semantic consistency, and lip-sync precision. Even more remarkably, AudioGen-Omni  also delivers competitive or superior results in Text-to-Audio/Speech/Song tasks—demonstrating that multimodal joint training not only preserves, but enhances unimodal capabilities. With just 1.91 seconds of inference time for an 8-second audio clip, it outperforms prior models by a large margin in both speed and versatility.    
                         </p>
                     </div>
                 </div>
@@ -241,7 +240,7 @@ Even more remarkably, AudioGen-Omni also delivers competitive or superior result
                 </div>
                 <div class="video-item">
                     <div class="column">
-                        <video class="video-player big-video" controls preload="none" poster="https://ik.imagekit.io/AudioGen-Omni/pop.png?updatedAt=1753623286828" data-src="https://ik.imagekit.io/AudioGen-Omni/video_0005_cfg-4.5.mp4?updatedAt=1753623298890"></video>
+                        <video class="video-player big-video" controls preload="none" poster="https://ik.imagekit.io/AudioGen-Omni/pop.png?updatedAt=1753623286828" data-src="https://ik.imagekit.io/omnigen/video_0005_cfg-4.5.mov/ik-video.mp4?updatedAt=1753945929874"></video>
                         <p class="lyric">Keep our Jake, she was a bad bad member list calling it Kris now, baby I' a Rick crash out my face.</p>
                     </div>
                     <div class="column">
@@ -262,7 +261,24 @@ Even more remarkably, AudioGen-Omni also delivers competitive or superior result
             </div>
         </div>
     </section>
-
+    <section class="hero is-light">
+      <div class="container">
+        <h2 class="title is-4">Text To Speech</h2>
+        <div class="columns is-vcentered is-multiline">
+          <div class="column is-one-third">
+            <p class="caption">In this audio, you can hear a young woman around 30 years old speaking English without any regional accent.</p>
+          </div>
+          <div class="column is-one-third">
+            <p class="transcription">This mixture was formulated to wash two pillows.</p>
+          </div>
+          <div class="column is-one-third">
+            <audio controls preload="none">
+              <source src="https://ik.imagekit.io/omnigen/Hds8_YB5exw_7.flac?updatedAt=1753941732165" type="audio/flac" />
+            </audio>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="columns is-centered">
