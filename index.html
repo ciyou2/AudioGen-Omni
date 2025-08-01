@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="description" content="AudioGen-Omni">
     <meta property="og:title" content="AudioGen-Omni"/>
-    <meta property="og:description" content="AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation"/>
+    <meta property="og:description" content="AudioGen-Omni: A Unified Multimodal Diffusion Transformer fo Video-Synchronized Audio, Speech, and Song Generation"/>
     <meta property="og:url" content="https://ciyou2.github.io/AudioGen-Omni/"/>
     <meta property="og:image" content="static/image/kling.png"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
     <meta name="twitter:title" content="AudioGen-Omni">
-    <meta name="twitter:description" content="AudioGen-Omni: A Generalist Multimodal Diffusion Transformer for Video-Synchronized Sound Effects, Speech, and Song Generation">
+    <meta name="twitter:description" content="AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation">
     <meta name="twitter:image" content="static/images/kling.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="keywords" content="Video-to-Audio, Video-to-Speech, Video-to-Song">
@@ -129,7 +129,7 @@
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p style="font-size: 1.2em;">
-                        We present AudioGen-Omni — the first generalist multimodal diffusion transformer capable of generating high-fidelity sound effects, speech, and songs coherently synchronized with the input video. AudioGen-Omni  introduces a groundbreaking joint training paradigm that seamlessly integrates large-scale video-text-audio corpora, unlocking a model that can produce semantically rich, acoustically diverse audio spanning the entire spectrum of sound types. At the core of AudioGen-Omni is a unified lyrics-transcription encoder that maps both graphemes and phonemes—whether from sung or spoken input—into dense frame-level features. Dense frame-level representations are integrated via an AdaLN-based joint attention mechanism with phase-aligned anisotropic positional infusion (PAAPI), selectively applying RoPE to temporally structured modalities for precise and robust cross-modal alignment. Trained under a powerful Flow Matching objective, AudioGen-Omni  redefines the state-of-the-art in Video-to-Audio, Video-to-Speech, and Video-to-Song synthesis—excelling in audio quality, semantic consistency, and lip-sync precision. Even more remarkably, AudioGen-Omni  also delivers competitive or superior results in Text-to-Audio/Speech/Song tasks—demonstrating that multimodal joint training not only preserves, but enhances unimodal capabilities. With just 1.91 seconds of inference time for an 8-second audio clip, it outperforms prior models by a large margin in both speed and versatility.    
+                            We present AudioGen-Omni — a unified approach based on multimodal diffusion transformers (MMDit), capable of generating high-fidelity audio, speech, and songs coherently synchronized with the input video. AudioGen-Omni  introduces a novel joint training paradigm that seamlessly integrates large-scale video-text-audio corpora, enabling a model capable of generating semantically rich, acoustically diverse audio conditioned on multimodal inputs and adaptable to a wide range of audio generation tasks. AudioGen-Omni employs a unified lyrics-transcription encoder that encodes graphemes and phonemes from both sung and spoken inputs into dense frame-level representations. Dense frame-level representations are fused using an AdaLN-based joint attention mechanism enhanced with phase-aligned anisotropic positional infusion (PAAPI), wherein RoPE is selectively applied to temporally structured modalities to ensure precise and robust cross-modal alignment. By unfreezing all modalities and masking missing inputs, AudioGen-Omni mitigates the semantic constraints of text-frozen paradigms, enabling effective cross-modal conditioning. This joint training approach enhances audio quality, semantic alignment, and lip-sync accuracy, while also achieving state-of-the-art results on Text-to-Audio/Speech/Song tasks. With an inference time of 1.91 seconds for 8 seconds of audio, it offers substantial improvements in both efficiency and generality.
                         </p>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="content has-text-justified">
                     <p style="font-size: 1.2em;">
-                    AudioGen-Omni is the first unified framework capable of generating diverse audio types—including sound effects, speech, and song—under flexible multimodal conditions, enabling precise audio-visual alignment. Text, video, lyrics, and transcripts are used as conditional inputs. A lightweight module maps raw grapheme or phoneme sequences into dense, frame-aligned representations without requiring phoneme duration supervision. To ensure audio-visual synchrony, Rotary Positional Embeddings (RoPE) are applied not only to visual and audio streams but also to temporally aligned text inputs such as lyrics and transcripts, enhancing temporal consistency across modalities.   
+                    To the best of our knowledge, AudioGen-Omni is the first unified framework capable of generating diverse audio types—including audio, speech, and song—under flexible multimodal conditions, enabling precise text-audio-visual alignment. Text, video, lyrics, and transcription are used as conditional inputs. A lightweight module maps raw grapheme or phoneme sequences into dense, frame-aligned representations without requiring phoneme duration supervision. To ensure text-audio-visual synchrony, Rotary Positional Embeddings (RoPE) are applied not only to visual and audio streams but also to temporally aligned text inputs such as lyrics and transcription, enhancing temporal consistency across modalities.   
                     </p>
                 </div>
             </div>
