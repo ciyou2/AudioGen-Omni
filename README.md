@@ -50,9 +50,9 @@ masking missing inputs, AudioGen-Omni mitigates the
 semantic constraints of text-frozen paradigms, enabling
 effective cross-modal conditioning. This joint training
 approach enhances audio quality, semantic alignment,
-and lip-sync accuracy, while also achieving state-of-the-
-art results on Text-to-Audio/Speech/Song tasks. With an
-inference time of 1.91 seconds for 8 seconds of audio,
+and lip-sync accuracy, while also showcasing high-
+quality results on Text-to-Audio/Speech/Song tasks.
+. With an inference time of 1.91 seconds for 8 seconds of audio,
 it offers substantial improvements in both efficiency and
 generality.
  
