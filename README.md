@@ -1,7 +1,7 @@
 <h1 align="center">AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation</h1>
 
 <div align='center'>
-  <span class="author-block">Le Wang<sup>1</sup><sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>,  Kun Gai<sup>*</sup>, Di Zhang<sup>*</sup></span>
+  <span class="author-block">Le Wang<sup>1</sup><sup>*</sup>, Jun Wang<sup>*</sup>, Feng Deng<sup>*</sup>, Cheng Zhang<sup>*</sup>, Di Zhang<sup>*</sup>,  Kun Gai<sup>*</sup></span>
 </div>
 
 <div align='center'>
@@ -60,7 +60,7 @@ generality.
 ```
 @misc{AudioGen-Omni,
       title={AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation},
-      author={Le Wang, Jun Wang, Feng Deng, Chen Zhang, Kun Gai, Di Zhang},
+      author={Le Wang, Jun Wang, Feng Deng, Chen Zhang, Di Zhang, Kun Gai},
       journal={arXiv preprint arXiv: http://arxiv.org/abs/2508.00733},
       year={2025}
 }
