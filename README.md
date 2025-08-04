@@ -61,7 +61,7 @@ generality.
 @misc{AudioGen-Omni,
       title={AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation},
       author={Le Wang, Jun Wang, Feng Deng, Chen Zhang, Kun Gai, Di Zhang},
-      journal={arXiv preprint: http://arxiv.org/abs/2508.00733},
+      journal={arXiv preprint arXiv: http://arxiv.org/abs/2508.00733},
       year={2025}
 }
 ```
