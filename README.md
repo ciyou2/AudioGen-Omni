@@ -14,7 +14,7 @@
 
   <!-- 📄 Paper / project / GitHub stats -->
   <p>
-    <a href="http://arxiv.org/abs/2508.00733" target="_blank"><img src="https://img.shields.io/badge/Paper-AudioGenOmni-red" alt="arXiv link"></a>&nbsp;
+    <a href="http://arxiv.org/abs/2508.00733" target="_blank"><img src="https://img.shields.io/badge/Paper-AudioGen Omni-red" alt="arXiv link"></a>&nbsp;
     <a href="https://ciyou2.github.io/AudioGen-Omni/" target="_blank"><img src="https://img.shields.io/badge/Project-Demo page-green" alt="project Demo page"></a>&nbsp;
     <img src="https://komarev.com/ghpvc/?username=ciyou2&color=5865f2" alt="Profile views" width="110.2" height="20">&nbsp;
     <a href="https://github.com/ciyou2/AudioGen-Omni" target="_blank"><img src="https://img.shields.io/github/stars/ciyou2/AudioGen-Omni?style=social" alt="GitHub stars"></a>
