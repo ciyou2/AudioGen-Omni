@@ -283,7 +283,7 @@ quality results on Text-to-Audio/Speech/Song tasks. With an inference time of 1.
                     <h2 class="title is-3">Joint Video–Audio Generation Pipeline</h2>
                     <div class="content has-text-justified">
                         <p style="font-size: 1.2em;">
-                            Here, we present the successful extension of the AudioGen-Omni model into the video generation pipeline. Built upon the MMdit native audio-video framework, we have seamlessly integrated audio generation capabilities into the video generation process, enabling unified text-to-audio-video creation. Below are some internal evaluation demos showcasing the model’s performance in various scenarios. More details and application cases will be shared with you soon.
+                        Here, we present the successful extension of the AudioGen-Omni model to generate audio-video content from an image plus text input. The provided image serves as the video’s first frame, and the model then produces the corresponding video and audio based on the textual description. Built upon the MMdit native audio-video framework, this enables unified image-and-text-to-audio-video creation. Below are some internal evaluation demos showcasing the model’s performance in various scenarios. More details and application cases will be shared with you soon.
                         </p>
                     </div>
                 </div>
@@ -297,16 +297,16 @@ quality results on Text-to-Audio/Speech/Song tasks. With an inference time of 1.
                 <h2 class="title is-3">Joint Video–Audio Generation Pipeline: Internal Evaluation Gallery</h2>
                 <!-- Text To Video & Audio -->
                 <div style="display: flex; justify-content: center;align-items: center; height: 80px;">
-                    <h3 class="title is-4">Text To Video & Audio</h3>
+                    <h3 class="title is-4">Text & Image To Video & Audio</h3>
                 </div>
                 <div class="video-item">
                     <div class="column">
                         <video class="video-player big-video" controls preload="none" poster="https://ik.imagekit.io/OmniGen/video_1.png?updatedAt=1755160236882" data-src="https://ik.imagekit.io/OmniGen/video__SpeakingVideos__oneSpeaker__kling__1031__subset_68__9837f11f9cd0b1a05d43e475e8a73405_clip_cfg-1_1751948567971.mp4?updatedAt=1755160221095"></video>
-                        <p class="caption">A man in a suit and tie, speaking sadly before a Union Jack backdrop, alternates with a solemn female speaker over continuous background noise, saying: 'because then you see people from across the world coming out. And when you become friends with certain people, like different people, you learn about what they believe in. And it just helps someone be more aware.'</p>
+                        <p class="caption">A man wearing a black fitted long-sleeve shirt and glasses speaks in front of a background of brick walls and cabinets, saying: 'because then you see people from across the world coming out. And when you become friends with certain people, like different people, you learn about what they believe in. And it just helps someone be more aware.'</p>
                     </div>
                     <div class="column">
                         <video class="video-player big-video" controls preload="none" poster="https://ik.imagekit.io/OmniGen/video_2.png?updatedAt=1755160226697" data-src="https://ik.imagekit.io/OmniGen/video__SpeakingVideos__oneSpeaker__kling__1031__subset_31__92a54d93495c43765863d5302c8be9e0_clip_cfg-1_1751948564882.mp4?updatedAt=1755160221206"></video>
-                        <p class="caption">A man in a black shirt and gold chain sits on a couch with a black-and-white patterned backrest, speaking happily with expressive hand gestures before a light-colored wall; two male speakers share the 10-minute audio, saying: 'Where are my words guiding me? Where are my words guiding me? Are they guiding you to be a person that people look at and say, man, they are an encourager, they are loving, they are caring.'</p>
+                        <p class="caption">A man in a black shirt sits on a couch with a black-and-white patterned backrest, speaking happily with expressive hand gestures before a light-colored wall, saying: 'Where are my words guiding me? Where are my words guiding me? Are they guiding you to be a person that people look at and say, man, they are an encourager, they are loving, they are caring.'</p>
                     </div>
                 </div>
                 <div class="video-item">
@@ -316,7 +316,7 @@ quality results on Text-to-Audio/Speech/Song tasks. With an inference time of 1.
                     </div>
                     <div class="column">
                         <video class="video-player big-video" controls preload="none" poster="https://ik.imagekit.io/OmniGen/video_4.png?updatedAt=1755160232114" data-src="https://ik.imagekit.io/OmniGen/video__SpeakingVideos__oneSpeaker__kling__1031__subset_46__8c281b4dc48793d22913eb230e5e7fd7_clip_cfg-1_1751948541010%20(1).mp4?updatedAt=1755160221407"></video>
-                        <p class="caption">In an indoor setting with hunting-themed decor, including mounted deer heads and antlers, a man in a blue shirt and glasses speaks in a neutral tone during three intervals over a 10-minute monologue, with no background sounds, saying: 'Brad has filmed about 15 of those. We have those already. And then Lisa, she will be giving us instructions on how.'</p>
+                        <p class="caption">In an indoor setting with hunting-themed decor, including mounted deer heads and antlers, a man in a blue shirt and glasses speaks in a neutral tone, with no background sounds, saying: 'Brad has filmed about 15 of those. We have those already. And then Lisa, she will be giving us instructions on how.'</p>
                     </div>
                 </div>                
             </div>
